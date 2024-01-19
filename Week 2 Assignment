@@ -1,0 +1,56 @@
+						                                                                       Realtime Collaborative Code Editor
+
+Guide: Dr. Neelesh Kumar Jain
+
+Tagline of project: Realtime Collaborative Code Editor
+
+Project Scope: Real-Time Collaborative Code Editor
+
+1. Objective:
+Develop a web-based code editor that supports real-time collaboration among multiple users.
+
+2. Features:
+Code Editing:
+Syntax highlighting for various programming languages.
+Prebuilt Template for various languages.
+Code folding and indentation support.
+
+Real-Time Collaboration:
+Simultaneous editing for multiple users.
+Live cursor tracking.
+Instant updates on code changes made by others.
+
+Compile and Run:
+Integration with compilers/interpreters for code execution.
+Real-time feedback on code compilation and execution.
+
+Scalability:
+Design the system to handle a scalable number of users and projects.
+
+3. Technology Stack:
+Frontend -- ReactJs, JavaScript, Bootstrap, Socket.io Client.
+Backend -- ExpressJs, MongoDb, NodeJs , Socket.io.
+
+4. Deployment:
+Plan for deployment on scalable and reliable infrastructure (Netlify, Cyclic , Onrender).
+
+
+
+Feasibility of a real-time collaborative code editor from various perspectives:
+
+Technical Feasibility:
+Server Architecture: Ensure that the server architecture can handle concurrent connections and real-time synchronization of code changes.
+WebSockets or Alternative: Implement a technology like WebSockets for real-time communication between the server and clients, or explore suitable alternatives.
+
+Financial Feasibility:
+Development Costs: Estimate the costs associated with developing the collaborative code editor, including software development, testing, and infrastructure costs.
+Maintenance Costs: Consider ongoing maintenance, updates, and support costs.
+Return on Investment (ROI): Evaluate potential revenue streams or cost savings that can be achieved through the implementation of the collaborative code editor.
+
+Schedule Feasibility:
+Development Timeline: Develop a realistic timeline for the development and deployment of the collaborative code editor.
+Parallel Development: Consider the possibility of parallel development to expedite the project without compromising quality.
+
+Legal and Regulatory Feasibility:
+Data Security and Privacy: Ensure compliance with data protection laws and implement robust security measures to protect user data.
+
