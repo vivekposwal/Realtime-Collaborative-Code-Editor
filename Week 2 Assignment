@@ -3,12 +3,12 @@
 Guide: Dr. Neelesh Kumar Jain
 
 Tagline of project: Realtime Collaborative Code Editor
+A Collaborative Real-time Code Editor is a web application that allows multiple developers to work on the same
+codebase simultaneously in real-time. This type of code editor provides a collaborative environment that enables
+developers to work together more efficiently, communicate in real-time, and produce higher-quality code
 
 Project Scope: Real-Time Collaborative Code Editor
 
-What is a Code Editor?
-A text editor programme created especially for editing computer programmes' source code is known as a source-code editor. It might be integrated into an integrated development
-environment or it might be a stand-alone programme.
 
 1. Objective:
 Develop a web-based code editor that supports real-time collaboration among multiple users.
@@ -60,11 +60,16 @@ Data Security and Privacy: Ensure compliance with data protection laws and imple
 
 
 Literature review of our project:
+Collaborative Realtime Code Editors have been the subject of several studies in the past few years. The
+development of these applications has been driven by the need for collaborative software development,
+particularly in remote teams. Several studies have investigated the design and implementation of Collaborative
+Realtime Code Editors using various technologies, including React JS, Node JS, and Socket.io.
 
-The normal code editor lets you edit the code in real time in our project we have added other features too that differs from normal code editor.
+The normal code editor lets you edit the code in real time in our project we have added other features too that
+differs from normal code editor.
 What we are proposing in our project:
-In our real time code editor we can edit the code in real time with multiple users. We can also practice codeforces questions just by putting
-the question id. Also we can discuss the question in real time with other users. 
+In our real time code editor we can edit the code in real time with multiple users. We can also practice codeforces 
+questions just by putting the question id. Also we can discuss the question in real time with other users. 
 
 Some Existing products in the market:
 1- CodeShare: Codeshare is a simple and convenient online code editor that allows developers to share their code in real-time without creating an account.
