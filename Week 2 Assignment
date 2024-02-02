@@ -6,6 +6,10 @@ Tagline of project: Realtime Collaborative Code Editor
 
 Project Scope: Real-Time Collaborative Code Editor
 
+What is a Code Editor?
+A text editor programme created especially for editing computer programmes' source code is known as a source-code editor. It might be integrated into an integrated development
+environment or it might be a stand-alone programme.
+
 1. Objective:
 Develop a web-based code editor that supports real-time collaboration among multiple users.
 
@@ -57,19 +61,16 @@ Data Security and Privacy: Ensure compliance with data protection laws and imple
 
 Literature review of our project:
 
--Technological Stack:
-MongoDB: Used as a NoSQL database to store user data, code snippets, and collaboration history.
-Express.js: Employed as a backend framework to facilitate the creation of robust APIs and manage server-side logic.
-React.js: Front-end library that enables the creation of dynamic user interfaces, making real-time updates seamless.
-Node.js: Powers the server-side, ensuring a non-blocking, event-driven architecture suitable for real-time applications.
+The normal code editor lets you edit the code in real time in our project we have added other features too that differs from normal code editor.
+What we are proposing in our project:
+In our real time code editor we can edit the code in real time with multiple users. We can also practice codeforces questions just by putting
+the question id. Also we can discuss the question in real time with other users. 
 
--Real-time Collaboration:
-Emphasis on real-time features, enabling multiple developers to collaborate simultaneously.
-Integration of WebSockets or similar technologies to facilitate instant communication between clients and the server.
+Some Existing products in the market:
+	1- CodePen
+	2- Codeanywhere
+	3- CodeTogether
+	4- Codeshare
 
--User Experience and Interface Design:
-Focus on creating an intuitive and user-friendly interface for seamless code editing and collaboration.
-Research exploring different UI/UX patterns to enhance productivity and reduce friction in collaborative coding.
 
--Future Trends and Challenges:
-Exploration of emerging trends and potential challenges in the field, such as the integration of AI-assisted coding, improved collaboration features, or addressing specific pain points identified in current implementations.
+
