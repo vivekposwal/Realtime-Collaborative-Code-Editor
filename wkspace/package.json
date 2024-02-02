@@ -1,0 +1,35 @@
+{
+  "name": "major2.0",
+  "version": "1.0.0",
+  "description": "Collaborative Code Editor.",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "mongo": "mkdir .mongodb; mongod --dbpath .mongodb",
+    "dev": "concurrently \"npm run mongo\" \"sleep 3 && nodemon index.js\" \"cd client && npm start\"",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cheerio": "1.0.0-rc.10",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "socket.io": "^3.1.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.14",
+    "prettier": "2.4.1"
+  },
+  "engines": {
+    "node": "16",
+    "npm": "8"
+  }
+}
